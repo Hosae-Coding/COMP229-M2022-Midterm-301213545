@@ -35,7 +35,10 @@
                     <!-- ------------------------ -->
                     <!-- ADD the EDIT BUTTON HERE -->
                     <!-- ------------------------ -->
-                    <a href="/books/<%=books[count]._id %>" class="btn btn-primary btn-sm edit">Edit</a>
+                    <a href="/books/<%=books[count]._id %>" class="btn btn-primary btn-sm edit">
+                      <i class="fa-solid fa-circle-plus"></i>
+                      Edit</a>
+                    
                   </td>
 
                   <td class="text-center">
@@ -43,7 +46,7 @@
                     <!-- ADD the DELETE BUTTON HERE -->
                     <!-- ------------------------ -->
                     <a href="/books/delete/<%= books[count]._id %>" class="btn btn-sm btn-danger delete">
-                      <i class="fa fa-trash"></i>
+                      <i class="fa-solid fa-circle-minus"></i>
                       Delete
                     </a>
                   </td>

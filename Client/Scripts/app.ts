@@ -1,3 +1,10 @@
+
+/*  
+Javascript section
+ Comp229-M2022-midterm-301213545
+ hongseok kim
+*/
+
 //IIFE -- Immediately Invoked Function Expression
 "use strict";
 
